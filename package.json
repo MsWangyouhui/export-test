@@ -1,0 +1,18 @@
+{
+  "name": "export-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "/bin/false",
+    "build": "babel src -d dist",
+    "start": "node dist/index.js"
+  },
+  "author": "Chris Montoro <christopher.montoro@nytimes.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-preset-env": "^1.4.0"
+  }
+}
